@@ -1,0 +1,12 @@
+{
+ "version": 1,
+ "model": "Xenova/dinov2-small",
+ "campus": {"lat": 40.955, "lon": -76.884, "radius": 1200},
+ "search": ["Bucknell University", "Rooke Chapel", "Bertrand Library"],
+ "landmarks": [
+  {"key": "rooke", "name": "Rooke Chapel", "match": ["rooke chapel", "rooke-chapel"], "lat": 40.95456, "lon": -76.88625, "clue": "Look for the white steeple. Weddings, concerts and candlelight services all happen beneath it."},
+  {"key": "bertrand", "name": "Bertrand Library", "match": ["bertrand"], "lat": 40.954423, "lon": -76.882637, "clue": "Thousands of books sit under this clock tower."},
+  {"key": "sojka", "name": "Sojka Pavilion", "match": ["sojka"], "lat": 40.956964, "lon": -76.887093, "clue": "Home court for Bison basketball."}
+ ],
+ "gems": []
+}
