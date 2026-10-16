@@ -19,7 +19,7 @@ No server, no accounts, no keys. Nothing is uploaded.
 
 Tap **Load starter gems from the web**. The app searches Wikimedia Commons for openly licensed photos taken on or near campus, reads their coordinates, and builds gems from them. Credits and licences are listed under **Photo credits**. The first run downloads the image model (tens of MB), so use Wi-Fi.
 
-Three landmarks have hand-written clues and coordinates taken from Wikipedia: Rooke Chapel, Bertrand Library and Sojka Pavilion. Other gems get a plain clue made from the photo's title. Web gems have no backup question, so after three failed tries the player can move on.
+Three landmarks have hand-written clues and coordinates taken from Wikipedia: Rooke Chapel, Bertrand Library and Sojka Pavilion. Other gems get a plain clue made from the photo's title. Players can skip any gem with **Skip this gem**. Web gems have no backup question, so after three failed tries the app also offers to move on.
 
 ## Your own gems
 

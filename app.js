@@ -204,8 +204,9 @@ function play() {
     <label class="big filebtn">Take a photo<input id="cam" type="file" accept="image/*" capture="environment"></label>
     <label class="small filelink">or choose a saved photo<input id="lib" type="file" accept="image/*"></label>
     <div id="result" class="status"></div><div id="backup"></div>
-    <div class="row"><button id="back">Home</button></div>`);
+    <div class="row"><button id="back">Home</button><button id="skipnow">Skip this gem</button></div>`);
   on('#back', 'click', home);
+  on('#skipnow', 'click', () => { if (confirm('Skip this gem and go to the next clue?')) found(g, 'skipped', ''); });
   const handle = e => { const f = e.target.files[0]; e.target.value = ''; if (f) check(g, f); };
   on('#cam', 'change', handle); on('#lib', 'change', handle);
   if (P.fails >= 3) backup(g);
